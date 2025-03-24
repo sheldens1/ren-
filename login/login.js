@@ -1,5 +1,5 @@
 // Simpan password yang sudah ditentukan
-const passwordBenar = "yahahaha"; 
+const passwordBenar = "aku123"; 
 
 function login() {
     const username = document.getElementById("username").value;
