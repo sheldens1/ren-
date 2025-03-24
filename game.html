@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebak Kata</title>
+    <link rel="stylesheet" href="style/game.css">
+</head>
+<body>
+    <div class="game-container">
+        <h2>Tebak Kata</h2>
+        <p><strong>Hint:</strong> Yang dulu Pernah Nyakitin Kamu</p>
+        <input type="text" id="jawaban" placeholder="Masukkan jawaban">
+        <button onclick="cekJawaban()">Cek</button>
+        <p id="hasil"></p>
+    </div>
+    <audio id="bg-music" autoplay loop>
+        <source src="audio/phot.mp3" type="audio/mp3">
+        Browser kamu tidak mendukung audio.
+    </audio>
+    <script src="style/script.js" defer></script>
+
+    <!-- Animasi Daun Jatuh -->
+    <div id="daun-container"></div>
+
+    <script src="style/game.js"></script>
+</body>
+</html>
